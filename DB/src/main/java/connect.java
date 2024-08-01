@@ -11,7 +11,7 @@ public class connect {
         // localhost: host del DB
         // 5433: la porta del DB
         String username = "postgres";
-        String password = "postgres";
+        String password = "";
         return DriverManager.getConnection(jdbcUrl, username, password);
     }
 }
